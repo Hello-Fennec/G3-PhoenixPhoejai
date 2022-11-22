@@ -1,11 +1,13 @@
 
 import './App.css';
-import ContentGradient from "./components/content";
+import Page3 from "./components/page3";
+import Page4 from "./components/page4";
 
 function App() {
   return (
-    <div>
-      <ContentGradient />
+    <div >
+      <Page3 />
+      <Page4/>
     </div>
   );
 }
