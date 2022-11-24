@@ -4,6 +4,7 @@ import blue from '../components/photo/big-blue-phoenix.png';
 
 export default function BoxMain() {
   return (
+    
     <div className="bluephoenix" >
       <div class="bg-[#eff1d4]/80 w-[1200px] h-[600px] rounded-[3em]">
         <h1 className="h1style-right"><img src={blue} alt="phoenix" />ประวัติของฟินิกซ์</h1>
