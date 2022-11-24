@@ -10,11 +10,11 @@ function Page4() {
     <div className="bg-page4">
       
       <section className="redcard-right"><img src={rd} alt="redcardright" /></section>
-      <secttion className="redcard-left"><img src={rd} alt="redcardleft" /></secttion>
+      <section className="redcard-left"><img src={rd} alt="redcardleft" /></section>
       <section className="bluecard-left"><img src={blu} alt="bluecardleft" /></section>
       <section className="bluecard-right"><img src={blu} alt="bluecardright" /></section>
 
-      <div>
+      <div className="suptext">
         <BoxText1 />
         <BoxText2 />
       </div>
