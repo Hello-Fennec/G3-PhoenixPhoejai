@@ -99,20 +99,11 @@ body {
   padding-left: 20px;
 }
 
-.bg-page4 {
-  background-color: #551232;
-  background-size: cover;
-  width: fit-content;
-  position: relative;
-  margin-left: -50vw;
-  height: 100px;
-  left: 50%;
-}
-
 
 .btw-section img {
   position: absolute;
-  width: 1920px;
+  width: 100%;
+  z-index: 0;
   top: 1500px;
 }
 

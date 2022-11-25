@@ -6,7 +6,7 @@ import rd from "./photo/bg-redcard.png";
 import blu from "./photo/bg-bluecard.png";
 function Page4() {
   return (
-    <div className="bg-page4">
+    <div>
 
       <section className="redcard-right"><img src={rd} alt="redcardright" /></section>
       <section className="redcard-left"><img src={rd} alt="redcardleft" /></section>
@@ -18,8 +18,8 @@ function Page4() {
         <div id="6"><BoxText2 /></div>
       </div>
 
-      <div className="btw-section"><img src={intofooter} alt="intofooter" />
-      </div>
+      <div className="btw-section"><img src={intofooter} alt="intofooter" /></div>
+      
 
     </div>
   );
