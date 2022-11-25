@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;700&display=swap');
+body {
+  overflow: hidden;
+}
+ 
 .App {
   text-align: center;
 }
@@ -69,7 +74,7 @@
   color: #130542;
   text-align: right;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 80px;
   padding: 0.5em;
 }
 .h1style-left {
@@ -79,6 +84,35 @@
   font-weight: 700;
   font-size: 50px;
   padding: 0.5em;
+}
+
+.boxmainblur{
+  /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
+  filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.25));
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: 1.5px solid #7B7982
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #130542;
+  box-shadow: 0px 5px 3px #7B7982;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3B3176;
 }
 
 .pstyle {
@@ -101,15 +135,15 @@
   background-repeat: no-repeat;
   background-size: 800px;
   background-position-x: center;
-  /* filter: blur(8px);
-  -webkit-filter: blur(8px); */
 }
 
+
 .bg-mountainleft{
-  position: relative;
+  position: absolute;
   float: left;
-  top: 100px;
+  top: 170px;
   width: 500px;
+  height: 200px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -118,9 +152,9 @@
   -ms-filter: "FlipH";
 }
 .bg-mountainright{
-  position: relative;
+  position: absolute;
   float: right;
-  top: 100px;
+  top: 170px;
   width: 700px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -131,10 +165,10 @@
 }
 
 .bluephoenix img {
-  width: 500px;
+  width: 550px;
   position: absolute;
-  top: 5px;
-  left: 20px;
+  top: -130px;
+  left: -80px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -143,10 +177,110 @@
   -ms-filter: "FlipH";
 }
 
-.bg-page4 {
+/* .bg-page4 {
   background-color: #551232;
   height: 2364px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+} */
+
+.membermain {
+  font-family: 'Inknut Antiqua', serif;
+}
+.bg-page6 {
+  background-color: #676ccb;
+  height: 2364px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.memberhead {
+  position: relative;
+  top: 140px;
+  width: 950px;
+  z-index: 2;
+  /* background-color: #3b3176;
+  border-radius: 44px; */
+}
+.bgblur {
+  background-color: #3b3176;
+  border-radius: 44px;
+  width: 1150px;
+  height: 220px;
+  filter: blur(32.5px);
+  /* -webkit-filter: blur(5px); */
+  position: absolute;
+  top: 10px;
+  left: -95px;
+  z-index: -1;
+}
+
+/* .memberhead {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);  
+  } */
+
+.namelist {
+  font-family: 'Inknut Antiqua', serif;
+  color: #130542;
+  font-size: 32px;
+  font-weight: 700;
+  /* line-height: 92px; */
+}
+.name {
+  width: 255px;
+  height: 160px;
+  display: inline-block;
+  padding: 1em;
+  /* border: black 1px solid; */
+  /* position: relative;
+  top: -900px;
+  left: 0px; */
+}
+.membername {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 0px;
+}
+.member-img {
+  position: relative;
+  top: 1270px;
+  left: 128px;
+}
+.position {
+  color: #F1EFD4;
+  font-size: 28px;
+  font-weight: 500;
+}
+.member-img img {
+  border-radius: 200em;
+  position: relative;
+  display: inline-block;
+  width: 8em;
+  top: -1150px;
+  padding: 10px;
+  filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.25)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  transition: transform .2s;
+}
+
+.member-img img:hover {
+  /* transform: scale(1.06); */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.bg-member {
+  position: absolute;
+  background-color: #dd7f68;
+  border-radius: 58px;
+  top: 300px;
+  left: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1800px;
+  height: 550px;
 }
