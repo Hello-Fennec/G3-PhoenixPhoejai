@@ -89,7 +89,6 @@ body {
   font-weight: 700;
   font-size: 50px;
   padding: 0.5em;
-  text-indent: 20px;
 }
 
 .pstyle {
@@ -97,6 +96,7 @@ body {
   color: #000000;
   font-weight: 500;
   font-size: 33px;
+  text-indent: 80px;
 }
 
 .overflow {
@@ -168,7 +168,7 @@ body {
 .bg-page4 {
   background-color: #551232;
   background-size: cover;
-  width: 100vw;
+  width: fit-content;
   position: relative;
   margin-left: -50vw;
   height: 100px;
