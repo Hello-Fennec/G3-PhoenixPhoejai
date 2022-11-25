@@ -5,34 +5,36 @@
 .services-submenu {
   position: absolute;
   top: 67px;
-  text-align: start;
+  text-align: center;
   margin-top: 13px;
-  background: #fff;
+  /* background: #fff; */
   width: 18%;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
   z-index: 1;
-  font-size:1.5rem;
+  font-size: 1.5rem;
+  height: 250%;
 }
 
 .services-submenu li {
   cursor: pointer;
   border-bottom: #000 2px;
-
+  margin-top: 1em;
+  width: 100%;
 }
 
 .services-submenu li a {
   color: #130452;
+  /* border-bottom: 3px solid black; */
+  width: 100%;
 }
 
-.services-submenu li a:hover {
+/* .services-submenu li a:hover {
   background: #fff;
   color: #130452;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin-top: 13px;
-  width: 22%;
-}
+  top: 67px;
+  width: 100%;
+} */
 
 .services-submenu.clicked {
   display: none;

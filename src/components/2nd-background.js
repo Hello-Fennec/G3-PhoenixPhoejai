@@ -17,7 +17,7 @@ const checkEvent =()=>{
         position:"relative",  }} id="1">
         <img src={Card1} className={ status === true ? "absolute left-[580px] h-[600px] top-[150px] w-[418px] z-20 rounded-[30px] object-contain" : "absolute left-[580px] h-[600px] top-[150px] w-[418px] z-20 rounded-[30px] object-contain animate-automove-L"} onMouseOver={checkEvent} />
         <img src={Card2} className={ status === true ? "absolute left-[520px] h-[600px] top-[150px] w-[418px] z-20 rounded-[30px] object-contain" : "absolute left-[520px] h-[600px] top-[150px] w-[418px] z-20 rounded-[30px] object-contain animate-automove-R"} onMouseOver={checkEvent} />
-        <img src={circle} className="absolute  w-[2000px] bottom-[-100px] object-contain"></img>
+        <img src={circle} className="absolute  w-[2000px] bottom-[-100px] object-contain" />
         </div>
     );
 }

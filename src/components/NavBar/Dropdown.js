@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { historyDropdown } from "./NavItems";
-import { Link } from "react-router-dom";
 import "./Dropdown.css";
 
 function Dropdown() {
@@ -11,21 +10,17 @@ function Dropdown() {
       <ul
         className={dropdown ? "services-submenu clicked" : "services-submenu"}
         onClick={() => setDropdown(!dropdown)}
-      >
+      ><div className="shadow-lg bg-white pt-2 pb-2 rounded-b-lg">
         {historyDropdown.map((item) => {
           return (
+            <div className="border-b-2 w-full bg-white">
             <li key={item.id} >
-              {/* <Link
-                to={item.path}
-                className={item.cName}
-                onClick={() => setDropdown(false)}
-              >
-                {item.title}
-              </Link> */}
-              <a href={`#${item.id}`} onClick={()=> setDropdown(false)}>{item.title}</a>
+              <a href={`#${item.id}`} onClick={()=> setDropdown(false)} className="hover:text-[#D07D45]">{item.title}</a>
             </li>
+            </div>
           );
         })}
+        </div>
       </ul>
     </>
   );

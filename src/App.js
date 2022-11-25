@@ -15,9 +15,6 @@ function App() {
       <>
       <BrowserRouter>
         <NavbarDropdown />
-        {/* <Switch>
-          <Route path="/" exact component={Home}></Route>
-        </Switch> */}
       </BrowserRouter>
     </>
      <Background1 />

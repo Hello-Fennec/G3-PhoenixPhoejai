@@ -14,18 +14,17 @@ function Background1() {
         
         <div style={{ backgroundImage: `url(${gradient})`,backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
-        // height:"55vw",
         width:"100%",
         position:"relative",
         overflow:"hidden"
         }} className="h-screen">
-            <img src={hill1} className="absolute h-[800px] w-[2000px] left-[800px] top-[0px] object-contain"></img>
-            <img src={hill2} className="absolute h-[800px] w-[2000px] left-[-500px] top-[0px] object-contain"></img>
+            <img src={hill1} className="absolute h-[800px] w-[2000px] left-[800px] top-[0px] object-contain" />
+            <img src={hill2} className="absolute h-[800px] w-[2000px] left-[-500px] top-[0px] object-contain" />
             <img src={Cloud1} className="absolute h-[924px] left-[-200px] top-[-70px] w-full animate-CloudSlide"/>
             <img src={Cloud2} className="absolute h-[1024px] left-[650px] top-[-400px] w-full animate-CloudSlide"/>
             <img src={Cloud3} className="absolute h-[924px] left-[170px] top-[-50px] w-full animate-CloudSlide"/>
             <img src={Phoenix} className="absolute h-[850px] w-[1200px] left-[250px] top-[-170px] animate-bounce-Y" />
-            <img src={Headline} className="absolute h-[540px] w-[1100px] left-[-100px] top-[70px] object-cover"></img>
+            <img src={Headline} className="absolute h-[540px] w-[1100px] left-[-100px] top-[70px] object-cover" />
         </div>  
     );
 }
