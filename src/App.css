@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;700&display=swap');
+
 body {
   overflow: hidden;
 }
- 
+
 .App {
   text-align: center;
 }
@@ -37,6 +38,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -44,28 +46,31 @@ body {
 
 @-webkit-keyframes animateCloud {
   0% {
-      margin-left: -1000px;
+    margin-left: -1000px;
   }
+
   100% {
-      margin-left: 100%;
+    margin-left: 100%;
   }
 }
 
 @-moz-keyframes animateCloud {
   0% {
-      margin-left: -1000px;
+    margin-left: -1000px;
   }
+
   100% {
-      margin-left: 100%;
+    margin-left: 100%;
   }
 }
 
 @keyframes animateCloud {
   0% {
-      margin-left: -1000px;
+    margin-left: -1000px;
   }
+
   100% {
-      margin-left: 100%;
+    margin-left: 100%;
   }
 }
 
@@ -77,6 +82,7 @@ body {
   font-size: 80px;
   padding: 0.5em;
 }
+
 .h1style-left {
   font-family: 'Noto Sans Thai', sans-serif;
   color: #130542;
@@ -85,34 +91,19 @@ body {
   font-size: 50px;
   padding: 0.5em;
 }
+.box {
+  background-color: #f1efd4;
+  opacity: 80%;
+  width: 1300px;
+  height: 700px;
+  border-radius: 3em;
+  padding: 20px;
+}
 
-.boxmainblur{
+.boxmainblur {
   /* -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px); */
   filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.25));
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  border: 1.5px solid #7B7982
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #130542;
-  box-shadow: 0px 5px 3px #7B7982;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #3B3176;
 }
 
 .pstyle {
@@ -120,14 +111,16 @@ body {
   color: #000000;
   font-weight: 500;
   font-size: 33px;
+  position: relative;
+
 }
 
 .bg-cloud img {
   width: fit-content;
   position: absolute;
   -webkit-animation: animateCloud 25s linear infinite;
-	-moz-animation: animateCloud 25s linear infinite;
-	animation: animateCloud 25s linear infinite;
+  -moz-animation: animateCloud 25s linear infinite;
+  animation: animateCloud 25s linear infinite;
 }
 
 .bg-redphoenix {
@@ -137,31 +130,20 @@ body {
   background-position-x: center;
 }
 
-
-.bg-mountainleft{
+.bg-mountainleft {
   position: absolute;
-  float: left;
-  top: 170px;
-  width: 500px;
-  height: 200px;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+  top: 390px;
+  left: -70px;
+  width: 80em;
+  height: 100%;
 }
-.bg-mountainright{
+
+.bg-mountainright {
   position: absolute;
-  float: right;
-  top: 170px;
-  width: 700px;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+  top: 390px;
+  right: -210px;
+  width: 80em;
+  height: 100%;
 }
 
 .bluephoenix img {
@@ -177,17 +159,35 @@ body {
   -ms-filter: "FlipH";
 }
 
-/* .bg-page4 {
-  background-color: #551232;
-  height: 2364px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: 1.5px solid #7B7982
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #130542;
+  box-shadow: 0px 5px 3px #7B7982;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3B3176;
+}
+
+/* Page6 css*/
 
 .membermain {
   font-family: 'Inknut Antiqua', serif;
 }
+
 .bg-page6 {
   background-color: #676ccb;
   height: 2364px;
@@ -195,6 +195,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
 .memberhead {
   position: relative;
   top: 140px;
@@ -203,6 +204,7 @@ body {
   /* background-color: #3b3176;
   border-radius: 44px; */
 }
+
 .bgblur {
   background-color: #3b3176;
   border-radius: 44px;
@@ -229,6 +231,7 @@ body {
   font-weight: 700;
   /* line-height: 92px; */
 }
+
 .name {
   width: 255px;
   height: 160px;
@@ -239,22 +242,26 @@ body {
   top: -900px;
   left: 0px; */
 }
+
 .membername {
   text-align: center;
   position: relative;
   top: 120px;
   left: 0px;
 }
+
 .member-img {
   position: relative;
   top: 1270px;
   left: 128px;
 }
+
 .position {
   color: #F1EFD4;
   font-size: 28px;
   font-weight: 500;
 }
+
 .member-img img {
   border-radius: 200em;
   position: relative;
@@ -269,9 +276,9 @@ body {
 
 .member-img img:hover {
   /* transform: scale(1.06); */
-  -ms-transform: scale(1.1); 
+  -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .bg-member {

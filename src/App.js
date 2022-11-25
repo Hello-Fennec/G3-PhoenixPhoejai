@@ -6,7 +6,7 @@ import Page6 from './components/page6';
 
 function App() {
   return (
-    <div>
+    <div >
       <Page3 /> 
       {/* <Page6 /> */}
     </div>
