@@ -6,17 +6,16 @@ import rd from "./photo/bg-redcard.png";
 import blu from "./photo/bg-bluecard.png";
 function Page4() {
   return (
-
     <div className="bg-page4">
-      
+
       <section className="redcard-right"><img src={rd} alt="redcardright" /></section>
       <section className="redcard-left"><img src={rd} alt="redcardleft" /></section>
       <section className="bluecard-left"><img src={blu} alt="bluecardleft" /></section>
       <section className="bluecard-right"><img src={blu} alt="bluecardright" /></section>
 
       <div className="suptext">
-        <BoxText1 />
-        <BoxText2 />
+        <div id="5"><BoxText1 /></div>
+        <div id="6"><BoxText2 /></div>
       </div>
 
       <div className="btw-section"><img src={intofooter} alt="intofooter" />

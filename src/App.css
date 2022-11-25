@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  overflow-x: hidden;
+  background-color: #551232;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -162,16 +167,14 @@
 
 .bg-page4 {
   background-color: #551232;
+  background-size: cover;
+  width: 100vw;
   position: relative;
-  width: fit-content;
-  height: 2000px;
+  margin-left: -50vw;
+  height: 100px;
+  left: 50%;
 }
 
-.bg-page4-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 .btw-section img {
   position: absolute;
@@ -359,11 +362,11 @@ wiggle {
   }
 
   85% {
-    transform: rotate(28.45deg);
+    transform: rotate(45.00deg);
   }
 
   95% {
-    transform: rotate(18.45deg);
+    transform: rotate(1.9deg);
   }
 
   100% {
@@ -371,17 +374,6 @@ wiggle {
   }
 }
 
-body {
-  height: 100%;
-  display: block;
-  overflow-x: hidden;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .bg-text1 {
   background-color: rgb(239, 241, 212, 0.9);
@@ -412,7 +404,7 @@ body {
 }
 
 
-@media screen and (width: 320px){
+@media screen and (width: 320px) {
 
   .bg-page4 {
     width: 1300px;
@@ -420,8 +412,8 @@ body {
   }
 }
 
-@media screen and (min-width: 375px){
- 
+@media screen and (min-width: 375px) {
+
   .bg-page4 {
     width: 1500px;
     height: 2000px;

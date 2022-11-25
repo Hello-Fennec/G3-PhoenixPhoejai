@@ -13,6 +13,7 @@ export default function BoxText2() {
       <div class="miniblue">
         <img src={mini2} alt="minibluephoenix" />
 
+        
         <div className='bg-text2'>
           <h1 className="h1style-left">ฟีนิกซ์ของอียิปต์โบราณ</h1>
           <div className='overflow'>
