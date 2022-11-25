@@ -9,14 +9,14 @@ import mos from './photo/mos.jpg'
 
 export default function MemberName() {
   return (
-    <div class="membermain">
+    <div className="membermain">
       <div className='memberhead'>
         <img src={memberheader} alt="member" />
-        <div class="bgblur"></div>
+        <div className="bgblur"></div>
       </div>
-      <div class="bg-member">
-        <div class="namelist">
-          <div class="member-img">
+      <div className="bg-member">
+        <div className="namelist">
+          <div className="member-img">
             <p><a href="https://www.instagram.com/arenleys/" target="blank"><img src={earn} alt="earn" /></a>
               <a href="https://www.instagram.com/plengkj/" target="blank"><img src={pleng} alt="pleng" /></a>
               <a href="https://www.instagram.com/21st_horizontal/" target="blank"><img src={pin} alt="pin" /></a>
@@ -24,13 +24,13 @@ export default function MemberName() {
               <a href="https://www.instagram.com/04.03_jrx/" target="blank"><img src={plub} alt="plub" /></a>
               <a href="https://www.instagram.com/_mwnrk/" target="blank"><img src={mos} alt="mos" /></a></p>
           </div>
-          <div class="membername">
-            <p class="name"><a href="https://www.instagram.com/arenleys/" target="blank"> Earn <div class="position">Web Design</div></a></p>
-            <p class="name"><a href="https://www.instagram.com/plengkj/" target="blank"> Pleng <div class="position">Web Design</div></a></p>
-            <p class="name"><a href="https://www.instagram.com/21st_horizontal/" target="blank"> Pin <div class="position">Front-End</div></a></p>
-            <p class="name"><a href="https://www.instagram.com/mantana_chp/" target="blank"> Chompooh <div class="position">Front-End</div></a></p>
-            <p class="name"><a href="https://www.instagram.com/04.03_jrx/" target="blank"> Plub <div class="position">Front-End</div></a></p>
-            <p class="name"><a href="https://www.instagram.com/_mwnrk/" target="blank"> Mos <div class="position">Infrastructure</div></a></p>
+          <div className="membername">
+            <p className="name"><a href="https://www.instagram.com/arenleys/" target="blank"> Earn <div className="position">Web Design</div></a></p>
+            <p className="name"><a href="https://www.instagram.com/plengkj/" target="blank"> Pleng <div className="position">Web Design</div></a></p>
+            <p className="name"><a href="https://www.instagram.com/21st_horizontal/" target="blank"> Pin <div className="position">Front-End</div></a></p>
+            <p className="name"><a href="https://www.instagram.com/mantana_chp/" target="blank"> Chompooh <div className="position">Front-End</div></a></p>
+            <p className="name"><a href="https://www.instagram.com/04.03_jrx/" target="blank"> Plub <div className="position">Front-End</div></a></p>
+            <p className="name"><a href="https://www.instagram.com/_mwnrk/" target="blank"> Mos <div className="position">Infrastructure</div></a></p>
           </div>
         </div>
       </div>
