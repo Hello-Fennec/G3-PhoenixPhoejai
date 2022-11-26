@@ -8,6 +8,7 @@ import Background1 from './components/1st-background.js';
 import Background2 from './components/2nd-background.js';
 import BlurGradient from './components/BlurGradient';
 import Page4 from "./components/page4";
+import Page3 from "./components/page3";
 
 
 function App() {
@@ -21,10 +22,8 @@ function App() {
      <Background1 />
      <BlurGradient />
      <Background2 />
-     <div>
-       <Page4 />
-     </div>
-     
+     <Page3 />
+      <Page4 />
     </div>
   );
 }
