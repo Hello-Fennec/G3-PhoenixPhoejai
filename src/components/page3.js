@@ -1,5 +1,5 @@
 import React from 'react';
-import sky from './photo/bgsky2.png';
+import sky from '../components/photo/bgsky2.png';
 import BoxMain from './boxmain';
 import cloud from "./photo/bg-cloud.png";
 

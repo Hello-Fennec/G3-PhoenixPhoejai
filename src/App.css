@@ -460,16 +460,15 @@ wiggle {
 .memberhead {
   /* position: f; */
   top: 140px;
-  width: 1000px;
-  
+  width: 500px;
   z-index: 2;
 }
 
 .bgblur {
   background-color: #3b3176;
   border-radius: 44px;
-  width: 1150px;
-  height: 220px;
+  width: 650px;
+  height: 150px;
   filter: blur(32.5px);
   position: absolute;
   top: 10px;
@@ -487,7 +486,7 @@ wiggle {
 .name {
   
   /* width: 255px; */
-  display: relative;
+  /* display: relative; */
   height: 200px;
   /* display: inline-block; */
   padding-left: 1rem;
@@ -525,7 +524,7 @@ wiggle {
   display: inline-block;
   /* margin: 2px; */
   width: 12em;
-  top: -1150px;
+  top: -1180px;
   padding: 9px;
   filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.25)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
   transition: transform .2s;
