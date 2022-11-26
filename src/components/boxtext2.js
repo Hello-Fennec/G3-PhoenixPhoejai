@@ -14,8 +14,8 @@ export default function BoxText2() {
         <img src={mini2} alt="minibluephoenix" />
 
         
-        <div className='bg-text2'>
-          <h1 className="h1style-left">ฟีนิกซ์ของอียิปต์โบราณ</h1>
+        <div className='bg-text2' >
+          <h1 className="h1style-left " id="6" >ฟีนิกซ์ของอียิปต์โบราณ</h1>
           <div className='overflow'>
             <div className="pstyle">
               <p>ฟีนิกซ์ ปรากฏ ตำนานของพวกอียิปต์โบราณ ในฐานะของสัตว์เทพในตำนานซึ่งคู่ควรแก่การบูชา ยกย่อง เคารพ ฟีนิกซ์เกี่ยวข้องกับเทพแห่งไฟ ดังนั้นจะสังเกตได้ว่าขนนกของฟีนิกซ์นั้นจะออกเป็น ประกายเหลืองทองคล้ายเปลวไฟบ้างก็ว่าปกคลุม ด้วย เปลวไฟทั้งตัวทีเดียว</p>
