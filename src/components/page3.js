@@ -1,5 +1,5 @@
 import React from 'react';
-import sky from './components/photo/bgsky2.png';
+import sky from './../Picture/1st-bg-3.png';
 import BoxMain from './boxmain';
 import cloud from "./photo/bg-cloud.png";
 
@@ -9,7 +9,7 @@ function Page3(){
     backgroundImage: `url(${sky})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: "cover",
-    height:'1024px',
+    height:'990px',
     position: 'relative',       
     overflow: "hidden"
     }} id="4">
