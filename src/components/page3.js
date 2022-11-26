@@ -16,7 +16,7 @@ function Page3(){
       <div className="bg-cloud"> <img src={cloud} alt="cloud"/></div>
           <div className="bg-redphoenix">
               <div class="flex flex-row justify-center pt-20 p-20 h-5/6 relative">
-                <BoxMain /> 
+                <BoxMain id="4" /> 
               </div>
           </div>
     </div>

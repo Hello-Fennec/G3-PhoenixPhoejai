@@ -15,7 +15,7 @@ function Dropdown() {
           return (
             <div className="border-b-2 w-full bg-white">
             <li key={item.id} >
-              <a href={`#${item.id}`} onClick={()=> setDropdown(false)} className="hover:text-[#D07D45]">{item.title}</a>
+              <a href={`#${item.id}`} onClick={()=> {setDropdown(false);}} className="hover:text-[#D07D45]">{item.title}</a>
             </li>
             </div>
           );

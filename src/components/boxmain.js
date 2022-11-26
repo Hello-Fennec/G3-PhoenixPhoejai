@@ -4,7 +4,7 @@ import blue from './photo/big-blue-phoenix.png';
 
 export default function BoxMain() {
   return (
-    <div className="boxmain">
+    <div className="boxmain" >
       <div className="bluephoenix" >
         <div className="boxmainblur">
           <div className="box">

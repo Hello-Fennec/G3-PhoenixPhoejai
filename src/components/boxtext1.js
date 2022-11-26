@@ -4,7 +4,7 @@ import rd from "./photo/bg-redcard.png";
 
 export default function BoxText1() {
   return (
-    <div className='boxtext1'>
+    <div className='boxtext1' >
 
       <section className="redcard-front"><img src={rd} alt="redcardleft" /></section>
 

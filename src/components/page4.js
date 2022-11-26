@@ -15,7 +15,7 @@ function Page4() {
 
       <div className="suptext">
         <div id="5"><BoxText1 /></div>
-        <div id="6"><BoxText2 /></div>
+        <div ><BoxText2 id="6" /></div>
       </div>
 
       <div className="btw-section"><img src={intofooter} alt="intofooter" />

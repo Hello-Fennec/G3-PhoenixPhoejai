@@ -26,7 +26,7 @@ function Navbar() {
                   onMouseEnter={() => setDropdown(true)}
                   onMouseLeave={() => setDropdown(false)}
                 >
-                  <a href={`#${item.id}`} >{item.title}</a>
+                  <a href={`#${item.id}`}>{item.title}</a>
                   {dropdown && <Dropdown />}
                 </li>
                 </div>
@@ -34,7 +34,7 @@ function Navbar() {
             }
             return ( <div className="nav-item hover:border-b-[#c9db26] hover:border-b-4 pb-[-100px] ">
               <li key={item.id}>
-                <a href={`#${item.id}`} >{item.title}</a>
+                <a href={`#${item.id}`}>{item.title}</a>
               </li> </div>
             );
           })}
