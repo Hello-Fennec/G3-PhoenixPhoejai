@@ -9,11 +9,12 @@ import Background2 from './components/2nd-background.js';
 import BlurGradient from './components/BlurGradient';
 import Page4 from "./components/page4";
 import Page3 from "./components/page3";
+import Page6 from './components/page6';
 
 
 function App() {
   return (
-    <div className='contaiiner'>
+    <div>
       <>
       <BrowserRouter>
         <NavbarDropdown />
@@ -24,6 +25,7 @@ function App() {
      <Background2 />
      <Page3 />
       <Page4 />
+      <Page6 />
     </div>
   );
 }
